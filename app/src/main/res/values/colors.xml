@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#e25500</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="app_color">#f46d00</color>
+    <color name="text_color">#a7a7a7</color>
+    <color name="white">#fff</color>
+    <color name="selected_color">#fff6ee</color>
+    <color name="ready_to_pickup">#f3001e</color>
+    <color name="blue_txt">#2196f3</color>
+</resources>

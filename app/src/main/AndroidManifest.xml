@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activities.UpdateRestaurantActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Activities.AdminRestaurantsListActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.AddRestaurantActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.UpdateUserActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.AdminDashboardActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.AddUserActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.AdminUsersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.RestaurantHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.RestaurantOrdersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.CreateOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.DriverOrdersActivity" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
